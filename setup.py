@@ -14,6 +14,7 @@ setup(name = "system info",
       author_email = "amy.mccormack@ucdconnect.ie",
       license = "GPL3",
       packages = ['systeminfo'],
-      entry_points={'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
+      entry_points={
+          'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
         }
       )
